@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Главная</title>
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+		<link rel="stylesheet" href="magnific-popup.css" />
+		<link rel="stylesheet" href="style.css" />
+		<!-- <link rel="shortcut icon" href="favicon.ico"> -->
+		<!-- <meta name="robots" content="noindex, nofollow" /> -->
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+		/>
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<!-- link that opens popup -->
+			<button class="popup-with-form" href="#test-form">Open form</button>
+
+			<!-- form itself -->
+			<form id="test-form" class="mfp-hide white-popup-block form-popup">
+				<fieldset>
+					<ul>
+						<li>
+							<label for="name">Name</label>
+							<input
+								id="name"
+								name="name"
+								type="text"
+								placeholder="Name"
+								required=""
+							/>
+						</li>
+						<li>
+							<label for="email">Email</label>
+							<input
+								id="email"
+								name="email"
+								type="email"
+								placeholder="example@domain.com"
+								required=""
+							/>
+						</li>
+						<li>
+							<label for="phone">Phone</label>
+							<input
+								id="phone"
+								name="phone"
+								type="tel"
+								placeholder="Eg. +447500000000"
+								required=""
+							/>
+						</li>
+						<li>
+							<label for="textarea">Textarea</label>
+							<textarea id="textarea">
+Try to resize me to see how popup CSS-based resizing works.</textarea
+							>
+						</li>
+					</ul>
+					<button>Send</button>
+				</fieldset>
+			</form>
+
+			<div class="gallery"></div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+
+		<script src="main.js"></script>
+	</body>
+</html>
